@@ -1,0 +1,12 @@
+// Что выведет код?
+
+#include <iostream>
+
+struct Empty {};
+
+int main() {
+  Empty e;
+  
+  std::cout << sizeof(e);
+}
+
